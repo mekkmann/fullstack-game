@@ -24,6 +24,11 @@ function Header() {
       </Link>
       <div className="header__nav">
         <div className="header__option">
+          <Link href="/games">
+            <button className="header__authentication">Games</button>
+          </Link>
+        </div>
+        <div className="header__option">
           <button
             className="header__authentication"
             onClick={() => {
